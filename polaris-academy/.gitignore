@@ -1,0 +1,13 @@
+/build/
+
+/.quarto/
+**/*.quarto_ipynb
+
+/index.aux
+/index.log
+/index.pdf
+/index.tex
+/index.toc
+
+/_quarto-auto-book.yml
+/_quarto-auto-site.yml

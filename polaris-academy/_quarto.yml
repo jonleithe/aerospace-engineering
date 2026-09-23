@@ -1,0 +1,31 @@
+project:
+  type: default
+  output-dir: build/quarto
+  render:
+    - index.md
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    html-math-method: mathjax
+
+  pdf:
+    toc : true
+    number-sections : true
+    pdf-engine : xelatex
+    # Populate the contents, lay it out, then refresh the shifted page numbers.
+    latex-min-runs: 3
+    documentclass : article
+    papersize : a4
+    fontsize : 11pt
+    geometry : margin=25mm
+    colorlinks : true
+    linkcolor : PolarisBlue
+    urlcolor : PolarisBlue
+    citecolor : PolarisBlue
+    include-in-header : pandoc/polaris.tex
+
+filters:
+  - pandoc/pagebreak.lua
+  - pandoc/global-math-definitions.lua

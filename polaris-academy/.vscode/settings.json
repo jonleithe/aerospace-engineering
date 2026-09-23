@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "notes/**/*.md": "quarto"
+  },
+  "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+  "cmake.sourceDirectory": "/home/jole/projects/project-polaris-academy/software/r-vec"
+}

@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: build/books/academy
+
+book:
+  title: Project Polaris Academy
+  subtitle: Personal Engineering Knowledge Base
+  author: Jon Leithe
+  date: "2026"
+  date-format: "YYYY"
+  output-file: project-polaris-notes
+
+format:
+  pdf:
+    documentclass: report
+    include-in-header:
+      - pandoc/book-title.tex
+
+filters:
+  - pandoc/book-course-chapters.lua
+
+language:
+  callout-note-title: "Theorem"
+  crossref-nte-title: "Theorem"
+  crossref-nte-prefix: "Theorem"

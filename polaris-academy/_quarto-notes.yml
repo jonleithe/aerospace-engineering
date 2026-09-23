@@ -1,0 +1,4 @@
+project:
+  output-dir: build/notes
+  render:
+    - "notes/**/*.md"
