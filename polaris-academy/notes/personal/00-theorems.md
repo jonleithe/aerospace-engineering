@@ -95,7 +95,7 @@ $$
 
 ## Chapter 1.4 – The Matrix Equation $A\vec{x}=\vec{b}$
 
-::: {#theorem-1-4-1 .callout-note title="Theorem 1.4.1 — Matrix, Vector, and System Equivalence"}
+::: {#theorem-1-4-1 .callout-note title="Theorem 3 — Matrix, Vector, and System Equivalence"}
 
 **Textbook reference:** p.62
 
@@ -138,7 +138,7 @@ $$
 
 :::
 
-::: {#theorem-1-4-2 .callout-note title="Theorem 1.4.2 — Equivalent Conditions for Spanning $\mathbb{R}^m$"}
+::: {#theorem-1-4-2 .callout-note title="Theorem 4 — Equivalent Conditions for Spanning $\mathbb{R}^m$"}
 
 **Textbook reference:** p.63
 
@@ -151,11 +151,11 @@ d. $A$ has a pivot position in every row.
 
 :::
 
-::: {#theorem-1-4-3 .callout-note title="Theorem 1.4.3 — Linearity of Matrix-Vector Multiplication"}
+::: {#theorem-1-4-3 .callout-note title="Theorem 5 — Linearity of Matrix-Vector Multiplication"}
 
 **Textbook reference:** p.65
 
-If $A$ is an $m \times n$ matrix, $\vec{u}$ and $\vec{v}$ are vectors in $\mathbb{R}^m$, and $c$ is a scalar, then:
+If $A$ is an $m \times n$ matrix, $\vec{u}$ and $\vec{v}$ are vectors in $\mathbb{R}^n$, and $c$ is a scalar, then:
 
 a. $A(\vec{u}+\vec{v}) = A\vec{u}+A\vec{v}$
 b. $A(c\vec{u}) = c(A\vec{u})$

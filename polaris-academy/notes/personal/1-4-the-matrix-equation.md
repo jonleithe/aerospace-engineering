@@ -192,7 +192,7 @@ Consequently, this matrix cannot produce every vector in $\mathbb{R}^3$.
 Its columns span a plane through the origin, and only vectors on that plane
 can be right-hand sides of a consistent equation.
 
-::: {.callout-note title="Theorem 1.4.2 — When the columns span the output space"}
+::: {.callout-note title="Theorem 4 — When the columns span the output space"}
 
 For an $m\times n$ matrix $A$, the following statements are equivalent:
 
@@ -255,7 +255,7 @@ $$
 
 Matrix-vector multiplication respects addition and scalar multiplication.
 
-::: {.callout-note title="Theorem 1.4.3 — Linearity of matrix-vector multiplication"}
+::: {.callout-note title="Theorem 5 — Linearity of matrix-vector multiplication"}
 
 Let $A$ be an $m\times n$ matrix, let $\vec{u},\vec{v}\in\mathbb{R}^n$,
 and let $c$ be a scalar. Then
