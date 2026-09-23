@@ -10,12 +10,7 @@ format:
     format-links: false
 
 website:
-  title: Project Polaris Academy
   page-navigation: true
-  navbar:
-    left:
-      - text: Jon Leithe
-        href: https://www.jonleithe.no/
   sidebar:
     style: docked
     search: true

@@ -1,0 +1,12 @@
+[site]
+title = "Jon Leithe"
+academy_title = "Project Polaris Academy"
+author = "Jon Leithe"
+
+[labels]
+home = "Home"
+about = "About"
+engineering_notes = "Engineering Notes"
+theorems = "Theorems"
+personal_notes = "Personal notes"
+linear_algebra = "Linear Algebra"

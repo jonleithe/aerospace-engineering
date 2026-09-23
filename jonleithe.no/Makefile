@@ -5,16 +5,17 @@ SFTP_PORT := 22
 SFTP_USER := cab9tolit_ssh
 REMOTE_DIR := webroots/4f0fa1a1
 PUBLIC_DIR := public
-ACADEMY_DIR := ../project-polaris-academy
+ACADEMY_DIR := ../polaris-academy
 ACADEMY_SITE_DIR := $(ACADEMY_DIR)/build/site
 NOTES_DIR := $(PUBLIC_DIR)/notes
+HUGO_LABELS_CONFIG := hugo-auto.toml
 
 academy-site:
 	$(MAKE) -C $(ACADEMY_DIR) site
 
 build: academy-site
 	rm -rf $(PUBLIC_DIR)
-	hugo --minify
+	hugo --config hugo.toml,$(HUGO_LABELS_CONFIG) --minify
 	mkdir -p $(NOTES_DIR)
 	rsync -a --delete $(ACADEMY_SITE_DIR)/ $(NOTES_DIR)/
 

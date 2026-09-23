@@ -5,6 +5,8 @@ SOURCE_DIR  := notes
 BUILD_DIR   := build
 BOOK_CHAPTER_PROFILE := _quarto-auto-book.yml
 SITE_NAVIGATION_PROFILE := _quarto-auto-site.yml
+HUGO_LABELS_CONFIG := ../jonleithe.no/hugo-auto.toml
+LABELS_FILE := ../labels.toml
 
 SOURCES     := $(sort $(shell find $(SOURCE_DIR) -type f -name '*.md' -print))
 
@@ -82,8 +84,8 @@ notes:
 linear-algebra:
 	$(QUARTO) render --profile linear-algebra --to pdf
 
-profiles:
-	$(PYTHON) scripts/generate-book-profile.py --output $(BOOK_CHAPTER_PROFILE) --site-output $(SITE_NAVIGATION_PROFILE)
+profiles: $(LABELS_FILE)
+	$(PYTHON) scripts/generate-book-profile.py --output $(BOOK_CHAPTER_PROFILE) --site-output $(SITE_NAVIGATION_PROFILE) --hugo-output $(HUGO_LABELS_CONFIG)
 
 book: profiles
 	$(QUARTO) render --profile book,auto-book --to pdf

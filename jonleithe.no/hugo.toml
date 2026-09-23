@@ -1,6 +1,5 @@
 baseURL     = 'https://www.jonleithe.no/'
 locale      = 'en-gb'
-title       = 'Jon Leithe'
 theme       ='PaperMod'
 
 [params]
@@ -10,7 +9,6 @@ hideFooter      = false
 
 [params.profileMode]
 enabled     = true
-title       = "Jon Leithe"
 subtitle    = "Systems Engineer · Scientific Infrastructure · Software Development · Linux"
 imageUrl    = "/images/2026-07-profile-sketch.png"
 imageTitle  = "Jon Leithe"
@@ -20,28 +18,15 @@ imageHeight = 250
 
 
 ### Configure buttons ##########################################################
-[[params.profileMode.buttons]]
-name    = "About"
-url     = "/about/"
 ################################################################################
 
 
 
 ### Configuring the main menu ##################################################
-[[menu.main]]
-name = "About"
-url = "/about/"
-weight = 10
-
 #[[menu.main]]
 #name = "Projects"
 #url = "/projects/"
 #weight = 20
-
-[[menu.main]]
-name = "Engineering Notes"
-url = "/notes/"
-weight = 30
 
 #[[menu.main]]
 #name = "CV"
