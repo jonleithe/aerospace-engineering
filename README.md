@@ -1,2 +1,1 @@
-# This project is part of my Masters
-
+# Aerospace Engineering at UiT Narvik
