@@ -14,6 +14,6 @@ url = "/about/"
 weight = 10
 
 [[menu.main]]
-name = "Engineering Notes"
+name = "Linear Algebra"
 url = "/notes/"
 weight = 30
