@@ -32,7 +32,7 @@ build deploy-dry-run deploy:
 site: build
 
 academy-site:
-	$(MAKE) -C "$(ACADEMY_DIR)" site
+	$(MAsKE) --directory "$(ACADEMY_DIR)" site
 
 # Command-line variables such as NOTE and QUARTO propagate through recursive Make.
 note notes linear-algebra book profiles list preview:
