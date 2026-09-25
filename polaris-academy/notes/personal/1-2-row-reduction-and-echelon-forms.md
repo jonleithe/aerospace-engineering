@@ -5,9 +5,7 @@ author      : Jon Leithe
 date        : 2026-08-16
 ---
 
-Gaussian elimination provides a systematic way to analyze and solve a system
-of linear equations. If the system is consistent, elimination reveals one or
-more solutions; if it is inconsistent, elimination exposes the contradiction.
+Gaussian elimination provides a systematic way to analyze and solve a system of linear equations. If the system is consistent, elimination reveals one or more solutions; if it is inconsistent, elimination exposes the contradiction.
 
 Consider the system
 
@@ -25,8 +23,7 @@ $$
 A\vec{x}=\vec{b}
 $$
 
-where $A$ is the **coefficient matrix**, $\vec{x}$ contains the unknowns, and
-$\vec{b}$ contains the constants on the right-hand side:
+where $A$ is the **coefficient matrix**, $\vec{x}$ contains the unknowns, and $\vec{b}$ contains the constants on the right-hand side:
 
 $$
 \underbrace{
