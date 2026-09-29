@@ -3,7 +3,7 @@ title       : Vector Spaces and Subspaces
 subject     : Linear Algebra
 source      : Linear Algebra and Its Applications, 6th edition
 author      : Jon Leithe
-date        : 2026-09-22
+date        : 2026-09-29
 ---
 
 Linear algebra becomes more useful when its ideas are separated from ordinary
@@ -43,6 +43,99 @@ following ten axioms hold:
 The familiar space $\mathbb{R}^n$ satisfies these axioms. The same reasoning
 also applies to less visual spaces, such as sampled signals or polynomials.
 
+### Examples of vector spaces
+
+#### Example 1: coordinate spaces
+
+For every integer $n\geq 1$, $\mathbb{R}^n$ is a vector space. The geometric
+intuition developed for $\mathbb{R}^3$ helps visualize ideas that also apply
+in higher and lower dimensions.
+
+#### Example 2: arrows in $\mathbb{R}^3$
+
+Consider directed arrows in three-dimensional space, treating two arrows as
+equal when they have the same length and direction. Define addition by the
+parallelogram rule and scalar multiplication by scaling an arrow. This gives
+another way to represent the familiar vector operations.
+
+#### Example 3: doubly infinite sequences
+
+Let $\mathcal{S}$ be the set of all doubly infinite real sequences
+
+$$
+\mathbf{y}=(\ldots,y_{-2},y_{-1},y_0,y_1,y_2,\ldots).
+$$
+
+Add sequences componentwise and multiply each component by the scalar. For
+example, if $\mathbf{z}\in\mathcal{S}$, then
+
+$$
+\mathbf{y}+\mathbf{z}=(\ldots,y_k+z_k,\ldots),
+\qquad
+c\mathbf{y}=(\ldots,cy_k,\ldots).
+$$
+
+These operations satisfy the vector-space axioms, just as they do for
+coordinate vectors. Discrete-time measurements can be represented by such
+sequences; their entries might describe electrical, mechanical, optical, or
+audio signals.
+
+#### Example 4: polynomials of bounded degree
+
+For an integer $n\geq 0$, let $\mathcal{P}_n$ be the set of real polynomials
+of degree at most $n$:
+
+$$
+p(t)=a_0+a_1t+a_2t^2+\cdots+a_nt^n,
+\qquad a_0,\ldots,a_n\in\mathbb{R}.
+$$
+
+The zero polynomial is included in $\mathcal{P}_n$, even though its degree is
+not defined. Addition and scalar multiplication act on the coefficients. For
+example, if
+
+$$
+q(t)=b_0+b_1t+\cdots+b_nt^n,
+$$
+
+then
+
+$$
+(p+q)(t)=(a_0+b_0)+(a_1+b_1)t+\cdots+(a_n+b_n)t^n
+$$
+
+and
+
+$$
+(cp)(t)=ca_0+ca_1t+\cdots+ca_nt^n.
+$$
+
+#### Example 5: real-valued functions
+
+Let $D$ be a nonempty domain and let $V$ be the set of all real-valued
+functions defined on $D$. Define addition and scalar multiplication
+pointwise:
+
+$$
+(\vec{f}+\vec{g})(t)=\vec{f}(t)+\vec{g}(t),
+\qquad
+(c\vec{f})(t)=c\vec{f}(t).
+$$
+
+For example, on $D=\mathbb{R}$, if
+$\vec{f}(t)=1+\sin(2t)$ and $\vec{g}(t)=2+\frac{1}{2}t$, then
+
+$$
+(\vec{f}+\vec{g})(t)=3+\sin(2t)+\frac{1}{2}t,
+\qquad
+(2\vec{g})(t)=4+t.
+$$
+
+Two functions are equal when their values agree at every point in $D$. The
+zero vector is the function that is identically zero, and the additive
+inverse of $\vec{f}$ is $-\vec{f}$. Each function is one vector in this space,
+not a collection of separate vectors indexed by its input.
+
 ## Subspaces
 
 A **subspace** is a vector space contained inside another vector space. The
@@ -65,6 +158,57 @@ A subset $H$ of a vector space $V$ is a **subspace of $V$** if:
 
 The origin is essential. A plane in $\mathbb{R}^3$ that does not pass through
 the origin is not a subspace because it fails the first condition. Likewise, a
+line in $\mathbb{R}^2$ that misses the origin is not a subspace.
+
+### Examples of subspaces and non-subspaces
+
+#### Example 6: the zero subspace
+
+For any vector space $V$, the set containing only its zero vector,
+$\{\vec{0}\}$, is a subspace. It contains zero, and adding or scaling its sole
+element always gives zero.
+
+#### Example 7: bounded-degree polynomials
+
+The space $\mathcal{P}_n$ is a subspace of $\mathcal{P}$, the vector space of
+all real polynomials. It contains the zero polynomial, and the sum or scalar
+multiple of polynomials of degree at most $n$ still has degree at most $n$.
+
+#### Example 8: finitely supported signals
+
+Let $\mathcal{S}_f$ be the subset of $\mathcal{S}$ containing sequences with
+only finitely many nonzero entries. The zero sequence belongs to
+$\mathcal{S}_f$. The sum of two such sequences and any scalar multiple of one
+still have only finitely many nonzero entries, so $\mathcal{S}_f$ is a
+subspace of $\mathcal{S}$.
+
+#### Example 9: a coordinate plane in $\mathbb{R}^3$
+
+The space $\mathbb{R}^2$ is not itself a subspace of $\mathbb{R}^3$: its
+vectors have two entries, while vectors in $\mathbb{R}^3$ have three. However,
+the set
+
+$$
+H=
+\left\{
+\begin{bmatrix}
+s\\
+t\\
+0
+\end{bmatrix}
+:s,t\in\mathbb{R}
+\right\}
+$$
+
+is a subset of $\mathbb{R}^3$ that behaves like $\mathbb{R}^2$. It contains
+the zero vector, and addition and scalar multiplication preserve the zero
+third component. Thus $H$ is a subspace of $\mathbb{R}^3$; geometrically, it
+is the $x_1x_2$-plane.
+
+#### Example 10: a plane that misses the origin
+
+A plane in $\mathbb{R}^3$ that does not pass through the origin is not a
+subspace because it does not contain the zero vector. For the same reason, a
 line in $\mathbb{R}^2$ that misses the origin is not a subspace.
 
 ## A subspace spanned by a set
