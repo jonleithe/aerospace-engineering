@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+<title id="title">Adding minus b one and three copies of b two</title>
+<desc id="desc">Equal-scale coordinate axes show b one equals (minus 2,1) and b two equals (3,1). A parallelogram construction adds minus b one, the vector (2, minus 1), to three b two, the vector (9,3), to reach x equals (11,2).</desc>
+<rect width="1000" height="650" fill="white"/>
+<defs>
+ <marker id="axis-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#393632" stroke-width="1.5" stroke-linejoin="round"/></marker>
+ <marker id="blue-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#24678d" stroke-width="1.8" stroke-linejoin="round"/></marker>
+ <marker id="terra-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a34f36" stroke-width="1.8" stroke-linejoin="round"/></marker>
+ <marker id="result-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#74601f" stroke-width="1.8" stroke-linejoin="round"/></marker>
+</defs>
+<!-- Equal scales: 47 pixels per coordinate unit; origin is (240,415). -->
+<g stroke="#eeeeee" stroke-width="1">
+ <path d="M146 190 V550 M193 190 V550 M240 190 V550 M287 190 V550 M334 190 V550 M381 190 V550 M428 190 V550 M475 190 V550 M522 190 V550 M569 190 V550 M616 190 V550 M663 190 V550 M710 190 V550 M757 190 V550 M804 190 V550"/>
+ <path d="M110 509 H835 M110 462 H835 M110 368 H835 M110 321 H835 M110 274 H835 M110 227 H835"/>
+</g>
+<!-- Vertices O, -b1=(2,-1), x=(11,2), and 3b2=(9,3). -->
+<polygon points="240,415 334,462 757,321 663,274" fill="#f5f8fa" stroke="#d2dde3" stroke-width="2"/>
+<g fill="none" stroke="#9ca8ae" stroke-width="1.6" stroke-dasharray="6 6" stroke-linecap="round">
+ <path d="M663 274 L757 321"/>
+ <path d="M663 274 L240 415"/>
+</g>
+<g fill="none" stroke="#393632" stroke-width="1.8" stroke-linecap="round">
+ <path d="M105 415 H840" marker-end="url(#axis-arrow)"/>
+ <path d="M240 555 V185" marker-end="url(#axis-arrow)"/>
+</g>
+<g stroke="#393632" stroke-width="1.3" font-family="DejaVu Serif, serif" font-size="17" fill="#393632" text-anchor="middle">
+ <path d="M146 410 V420"/><text x="146" y="444" stroke="none">−2</text>
+ <path d="M334 410 V420"/><text x="334" y="444" stroke="none">2</text>
+ <path d="M428 410 V420"/><text x="428" y="444" stroke="none">4</text>
+ <path d="M522 410 V420"/><text x="522" y="444" stroke="none">6</text>
+ <path d="M616 410 V420"/><text x="616" y="444" stroke="none">8</text>
+ <path d="M710 410 V420"/><text x="710" y="444" stroke="none">10</text>
+ <path d="M804 410 V420"/><text x="804" y="444" stroke="none">12</text>
+ <path d="M235 509 H245"/><text x="215" y="515" stroke="none" text-anchor="end">−2</text>
+ <path d="M235 462 H245"/><text x="215" y="468" stroke="none" text-anchor="end">−1</text>
+ <path d="M235 368 H245"/><text x="215" y="374" stroke="none" text-anchor="end">1</text>
+ <path d="M235 321 H245"/><text x="215" y="327" stroke="none" text-anchor="end">2</text>
+ <path d="M235 274 H245"/><text x="215" y="280" stroke="none" text-anchor="end">3</text>
+ <path d="M235 227 H245"/><text x="215" y="233" stroke="none" text-anchor="end">4</text>
+ <text x="240" y="444" stroke="none">0</text>
+</g>
+<g font-family="DejaVu Serif, serif" font-size="24" font-style="italic" fill="#393632">
+ <text x="852" y="423">x</text><text x="255" y="194">y</text>
+</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M240 415 L334 462" stroke="#24678d" stroke-width="3.3" marker-end="url(#blue-arrow)"/>
+ <path d="M334 462 L757 321" stroke="#a34f36" stroke-width="3.3" marker-end="url(#terra-arrow)"/>
+ <path d="M240 415 L757 321" stroke="#74601f" stroke-width="4.2" marker-end="url(#result-arrow)"/>
+</g>
+<g fill="#393632"><circle cx="240" cy="415" r="4"/><circle cx="334" cy="462" r="4"/><circle cx="663" cy="274" r="4"/></g>
+<circle cx="757" cy="321" r="5" fill="#74601f"/>
+<g font-family="DejaVu Serif, serif" font-size="24" paint-order="stroke" stroke="white" stroke-width="7" stroke-linejoin="round">
+ <text x="288" y="465" transform="rotate(26.6 288 465)" fill="#24678d">−b₁</text>
+ <text x="532" y="382" transform="rotate(-18.4 532 382)" fill="#a34f36">3b₂</text>
+ <text x="777" y="302" fill="#74601f"><tspan font-style="italic">x</tspan> = (11, 2)</text>
+</g>
+</svg>

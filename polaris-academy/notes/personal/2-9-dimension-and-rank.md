@@ -314,3 +314,228 @@ q. $\operatorname{Nul}(A)=\{\vec{0}\}$.
 
 For a square matrix, full rank therefore means that the matrix has no lost
 input directions and reaches every vector in its codomain.
+
+## Exercises
+
+These worked exercises are transcribed from the handwritten note
+[`exercises-2-9.pdf`](../hand-written/exercises/exercises-2-9.pdf).
+
+### Exercise 2.9.1: finding a vector from its coordinates
+
+Let
+
+$$
+B=\left\{
+\begin{bmatrix}1\\1\end{bmatrix},
+\begin{bmatrix}2\\-1\end{bmatrix}
+\right\},
+\qquad
+[\vec{x}]_B=\begin{bmatrix}3\\2\end{bmatrix}.
+$$
+
+The coordinate vector gives the coefficients of the basis vectors:
+
+$$
+\vec{x}
+=3\begin{bmatrix}1\\1\end{bmatrix}
++2\begin{bmatrix}2\\-1\end{bmatrix}
+=\begin{bmatrix}7\\1\end{bmatrix}.
+$$
+
+The head-to-tail construction is shown in @fig-exercise-2-9-1-basis-addition.
+
+![Equal-scale coordinate diagram showing $3\vec{b}_1$, $2\vec{b}_2$, and their sum $\vec{x}=(7,1)$.](../../images/exercise-2-9-1-basis-addition.png){#fig-exercise-2-9-1-basis-addition width=85% fig-pos="H" fig-align="center"}
+
+### Exercise 2.9.2: converting coordinates to standard coordinates
+
+For
+
+$$
+\beta=\left\{
+\begin{bmatrix}-2\\1\end{bmatrix},
+\begin{bmatrix}3\\1\end{bmatrix}
+\right\},
+\qquad
+[\vec{x}]_\beta=\begin{bmatrix}-1\\3\end{bmatrix},
+$$
+
+put the basis vectors into the columns of a matrix and multiply by the
+coordinate vector:
+
+$$
+\vec{x}
+=\begin{bmatrix}-2&3\\1&1\end{bmatrix}
+\begin{bmatrix}-1\\3\end{bmatrix}
+=\begin{bmatrix}11\\2\end{bmatrix}.
+$$
+
+The parallelogram in @fig-exercise-2-9-2-basis-addition shows the same sum
+geometrically.
+
+![Equal-scale coordinate diagram showing $-\vec{b}_1$, $3\vec{b}_2$, and their sum $\vec{x}=(11,2)$.](../../images/exercise-2-9-2-basis-addition.png){#fig-exercise-2-9-2-basis-addition width=85% fig-pos="H" fig-align="center"}
+
+### Exercise 2.9.4: finding coordinates in a basis
+
+Let
+
+$$
+\vec{b}_1=\begin{bmatrix}1\\-3\end{bmatrix},
+\qquad
+\vec{b}_2=\begin{bmatrix}-4\\7\end{bmatrix},
+\qquad
+\beta=\{\vec{b}_1,\vec{b}_2\},
+\qquad
+\vec{x}=\begin{bmatrix}-8\\9\end{bmatrix}.
+$$
+
+To find $[\vec{x}]_\beta$, solve
+$c_1\vec{b}_1+c_2\vec{b}_2=\vec{x}$:
+
+$$
+\left[\begin{array}{cc|c}
+1&-4&-8\\
+-3&7&9
+\end{array}\right]
+\sim
+\left[\begin{array}{cc|c}
+1&0&4\\
+0&1&3
+\end{array}\right].
+$$
+
+Thus
+
+$$
+[\vec{x}]_\beta=\begin{bmatrix}4\\3\end{bmatrix}.
+$$
+
+### Exercise 2.9.5: finding coordinates in $\mathbb{R}^3$
+
+Let
+
+$$
+\vec{b}_1=\begin{bmatrix}1\\5\\-3\end{bmatrix},
+\qquad
+\vec{b}_2=\begin{bmatrix}-3\\-7\\5\end{bmatrix},
+\qquad
+\beta=\{\vec{b}_1,\vec{b}_2\},
+\qquad
+\vec{x}=\begin{bmatrix}4\\10\\-7\end{bmatrix}.
+$$
+
+Solving for the coefficients gives
+
+$$
+\left[\begin{array}{cc|c}
+1&-3&4\\
+5&-7&10\\
+-3&5&-7
+\end{array}\right]
+\sim
+\left[\begin{array}{cc|c}
+1&0&\tfrac14\\
+0&1&-\tfrac54\\
+0&0&0
+\end{array}\right].
+$$
+
+Therefore,
+
+$$
+[\vec{x}]_\beta=\begin{bmatrix}\tfrac14\\-\tfrac54\end{bmatrix}.
+$$
+
+Indeed, $\tfrac14\vec{b}_1-\tfrac54\vec{b}_2=\vec{x}$.
+
+### Exercise 2.9.13: finding a basis for a span
+
+Let $H$ be the subspace spanned by
+
+$$
+\vec{v}_1=\begin{bmatrix}1\\-3\\2\\-4\end{bmatrix},\quad
+\vec{v}_2=\begin{bmatrix}-3\\9\\-6\\12\end{bmatrix},\quad
+\vec{v}_3=\begin{bmatrix}2\\-1\\4\\2\end{bmatrix},\quad
+\vec{v}_4=\begin{bmatrix}-4\\5\\-3\\7\end{bmatrix}.
+$$
+
+Use these vectors as the columns of a matrix and row-reduce:
+
+$$
+\begin{bmatrix}
+1&-3&2&-4\\
+-3&9&-1&5\\
+2&-6&4&-3\\
+-4&12&2&7
+\end{bmatrix}
+\sim
+\begin{bmatrix}
+1&-3&0&0\\
+0&0&1&0\\
+0&0&0&1\\
+0&0&0&0
+\end{bmatrix}.
+$$
+
+The pivot columns are $1$, $3$, and $4$. The corresponding original vectors
+form a basis, so
+
+$$
+\{\vec{v}_1,\vec{v}_3,\vec{v}_4\}
+\quad\text{is a basis, and}\quad
+\dim(H)=3.
+$$
+
+### Exercise 2.9.15: interpreting rank and nullity
+
+Suppose a $5\times8$ matrix $A$ has five pivot columns. Then
+$\operatorname{rank}(A)=5$. Since $\operatorname{Col}(A)$ is a
+five-dimensional subspace of $\mathbb{R}^5$,
+
+$$
+\operatorname{Col}(A)=\mathbb{R}^5.
+$$
+
+By the Rank Theorem,
+$\dim\bigl(\operatorname{Nul}(A)\bigr)=8-5=3$. However,
+$\operatorname{Nul}(A)$ is a subspace of $\mathbb{R}^8$, since $A$ has eight
+columns. It has dimension $3$, but it is not a subspace of $\mathbb{R}^3$.
+
+### Exercise 2.9.31: constructing a matrix with prescribed dimensions
+
+Choose two independent vectors in $\mathbb{R}^3$,
+
+$$
+\vec{a}_1=\begin{bmatrix}1\\2\\3\end{bmatrix},
+\qquad
+\vec{a}_2=\begin{bmatrix}1\\-1\\-1\end{bmatrix},
+$$
+
+and use each twice as a column:
+
+$$
+A=\begin{bmatrix}
+1&1&1&1\\
+2&2&-1&-1\\
+3&3&-1&-1
+\end{bmatrix}
+\sim
+\begin{bmatrix}
+1&1&0&0\\
+0&0&1&1\\
+0&0&0&0
+\end{bmatrix}.
+$$
+
+The pivot columns are columns $1$ and $3$, so
+$\dim\bigl(\operatorname{Col}(A)\bigr)=2$. The equations for the null space
+are $x_1+x_2=0$ and $x_3+x_4=0$. Hence
+
+$$
+\vec{x}
+=s\begin{bmatrix}-1\\1\\0\\0\end{bmatrix}
++t\begin{bmatrix}0\\0\\-1\\1\end{bmatrix},
+\qquad s,t\in\mathbb{R},
+$$
+
+so $\dim\bigl(\operatorname{Nul}(A)\bigr)=2$. This matrix satisfies both
+conditions.
