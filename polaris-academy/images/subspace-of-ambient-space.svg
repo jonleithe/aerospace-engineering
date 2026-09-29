@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">A subspace inside an ambient space</title>
+  <desc id="desc">A line H passes through the zero vector and lies entirely inside the larger vector space V.</desc>
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="900" height="480" fill="#fff"/>
+  <rect width="900" height="480" fill="url(#grid)"/>
+  <path d="M115 155L675 80L805 330L245 405Z" fill="#eef2f2" fill-opacity=".76" stroke="#65747a" stroke-width="2.5"/>
+  <path d="M285 308L645 182" fill="none" stroke="#477f9a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="465" cy="245" r="7" fill="#303a40"/>
+  <text x="450" y="226" font-family="Cambria, Georgia, serif" font-size="24" fill="#303a40">0</text>
+  <text x="700" y="125" font-family="Cambria, Georgia, serif" font-size="30" font-style="italic" fill="#303a40">V</text>
+  <text x="340" y="300" font-family="Cambria, Georgia, serif" font-size="30" font-style="italic" fill="#356d8a">H</text>
+</svg>

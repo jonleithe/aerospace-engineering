@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Two vectors spanning a plane</title>
+  <desc id="desc">Two independent vectors v1 and v2 lie in a plane through the origin in R3; their span is that plane.</desc>
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
+    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3f7897"/></marker>
+    <marker id="rustArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#c17b52"/></marker>
+    <marker id="darkArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#39444b"/></marker>
+  </defs>
+  <rect width="900" height="540" fill="#fff"/>
+  <rect width="900" height="540" fill="url(#grid)"/>
+  <path d="M205 240L592 155L748 290L360 376Z" fill="#c7dfea" fill-opacity=".58" stroke="#587e90" stroke-width="2.5"/>
+  <line x1="450" y1="278" x2="240" y2="425" stroke="#39444b" stroke-width="2.5" marker-end="url(#darkArrow)"/>
+  <line x1="450" y1="278" x2="790" y2="350" stroke="#39444b" stroke-width="2.5" marker-end="url(#darkArrow)"/>
+  <line x1="450" y1="278" x2="450" y2="55" stroke="#39444b" stroke-width="2.5" marker-end="url(#darkArrow)"/>
+  <line x1="450" y1="278" x2="315" y2="242" stroke="#3f7897" stroke-width="5" stroke-linecap="round" marker-end="url(#blueArrow)"/>
+  <line x1="450" y1="278" x2="590" y2="250" stroke="#c17b52" stroke-width="5" stroke-linecap="round" marker-end="url(#rustArrow)"/>
+  <circle cx="450" cy="278" r="5.5" fill="#303a40"/>
+  <text x="463" y="300" font-family="Cambria, Georgia, serif" font-size="22" fill="#303a40">0</text>
+  <text x="230" y="447" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#303a40">x₁</text>
+  <text x="796" y="365" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#303a40">x₂</text>
+  <text x="462" y="58" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#303a40">x₃</text>
+  <text x="286" y="228" font-family="Cambria, Georgia, serif" font-size="25" font-style="italic" fill="#356d8a">v₁</text>
+  <text x="592" y="247" font-family="Cambria, Georgia, serif" font-size="25" font-style="italic" fill="#ad6945">v₂</text>
+  <text x="695" y="205" font-family="Cambria, Georgia, serif" font-size="27" font-style="italic" fill="#4e7180">H</text>
+</svg>

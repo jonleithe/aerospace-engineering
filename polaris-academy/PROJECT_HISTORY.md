@@ -4,6 +4,15 @@ This file records durable context and decisions from AI-assisted project work.
 It contains concise summaries rather than verbatim chat transcripts. The newest
 entry should be added at the top of the history.
 
+## 2026-09-29 — Expanded Chapter 4.1 from the revised handwritten notes
+
+- Expanded the vector-space chapter to include examples using geometric
+  vectors, doubly infinite sequences, polynomials, and real-valued functions,
+  followed by zero, polynomial, finite-support, coordinate-plane, and
+  translated-line subspace examples.
+- Added polished SVG versions of all seven sketches in the updated
+  handwritten note and retained the existing span theorem and worked examples.
+
 ## 2026-09-22 — Added Chapter 4.1 on vector spaces and subspaces
 
 - Converted the handwritten `4-1-vector-spaces-and-subspaces.pdf` into the

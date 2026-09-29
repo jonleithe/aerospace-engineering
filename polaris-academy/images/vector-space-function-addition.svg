@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Addition of functions as vectors</title>
+  <desc id="desc">Four points labeled zero, f, g, and f plus g are the vertices of a parallelogram illustrating addition in a function space.</desc>
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="900" height="500" fill="#fff"/>
+  <rect width="900" height="500" fill="url(#grid)"/>
+  <path d="M185 350L350 145L650 190L485 395Z" fill="#d8eaf0" fill-opacity=".62" stroke="#86969b" stroke-width="2.2"/>
+  <g fill="#39444b" stroke="#fff" stroke-width="2">
+    <circle cx="185" cy="350" r="7"/>
+    <circle cx="350" cy="145" r="7"/>
+    <circle cx="485" cy="395" r="7"/>
+    <circle cx="650" cy="190" r="7"/>
+  </g>
+  <text x="153" y="384" font-family="Cambria, Georgia, serif" font-size="25" fill="#303a40">0</text>
+  <text x="335" y="119" font-family="Cambria, Georgia, serif" font-size="28" font-style="italic" fill="#356d8a">f</text>
+  <text x="491" y="426" font-family="Cambria, Georgia, serif" font-size="28" font-style="italic" fill="#ad6945">g</text>
+  <text x="605" y="174" font-family="Cambria, Georgia, serif" font-size="27" font-style="italic" fill="#303a40">f + g</text>
+</svg>
