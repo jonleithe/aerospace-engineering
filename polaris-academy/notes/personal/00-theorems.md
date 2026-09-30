@@ -619,3 +619,43 @@ $$
 is a subspace of $V$.
 
 :::
+
+## Chapter 4.3 – Linearly Independent Sets and Bases
+
+::: {#theorem-4-3-4 .callout-note title="Theorem 4.3.4 — Characterization of Linearly Dependent Sets"}
+
+**Source note:** [Linearly Independent Sets and Bases](4-3-linearly-independent-sets-bases.md)
+
+An indexed set $\{\vec{v}_1,\ldots,\vec{v}_p\}$ of at least two vectors,
+with $\vec{v}_1\ne\vec{0}$, is linearly dependent if and only if some
+$\vec{v}_j$ with $j>1$ is a linear combination of the preceding vectors
+$\vec{v}_1,\ldots,\vec{v}_{j-1}$.
+
+:::
+
+::: {#theorem-4-3-5 .callout-note title="Theorem 4.3.5 — The Spanning Set Theorem"}
+
+**Source note:** [Linearly Independent Sets and Bases](4-3-linearly-independent-sets-bases.md)
+
+If one vector in a finite spanning set is a linear combination of the
+remaining vectors, it can be removed without changing the span. If the span
+is nonzero, some subset of the set is a basis for that span.
+
+:::
+
+::: {#theorem-4-3-6 .callout-note title="Theorem 4.3.6 — Pivot Columns Form a Basis for the Column Space"}
+
+**Source note:** [Linearly Independent Sets and Bases](4-3-linearly-independent-sets-bases.md)
+
+The pivot columns of a matrix $A$ form a basis for $\operatorname{Col} A$.
+
+:::
+
+::: {#theorem-4-3-7 .callout-note title="Theorem 4.3.7 — Row Space Is Preserved by Row Equivalence"}
+
+**Source note:** [Linearly Independent Sets and Bases](4-3-linearly-independent-sets-bases.md)
+
+Row-equivalent matrices have the same row space. If one is in echelon form,
+its nonzero rows form a basis for the row space of both matrices.
+
+:::

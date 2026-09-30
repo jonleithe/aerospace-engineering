@@ -9,6 +9,9 @@ format:
   html:
     format-links: false
 
+filters:
+  - pandoc/open-handwritten-pdfs-in-new-tab.lua
+
 website:
   page-navigation: true
   sidebar:

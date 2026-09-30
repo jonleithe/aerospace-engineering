@@ -107,9 +107,9 @@ Use Quarto-compatible `eq-` identifiers and refer to them with `@eq-...`:
 ```markdown
 The magnitude relation is shown in @eq-vector-magnitude.
 
-$$ {#eq-vector-magnitude}
-\lVert\vec v\rVert^2 = \vec v \cdot \vec v
 $$
+\lVert\vec v\rVert^2 = \vec v \cdot \vec v
+$$ {#eq-vector-magnitude}
 ```
 
 Identifiers must be unique within a rendered document. Use descriptive names

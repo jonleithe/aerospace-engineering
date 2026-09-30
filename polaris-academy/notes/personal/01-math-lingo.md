@@ -53,6 +53,7 @@ linear algebra chapters. In a Markdown table, a vertical bar is escaped as
 | $\sum$ | summation | adds a sequence of terms | $\sum_{i=1}^{3}i=1+2+3=6$ |
 | $\prod$ | product | multiplies a sequence of terms | $\prod_{i=1}^{3}i=1\cdot2\cdot3=6$ |
 | $f\colon A\to B$ | function | maps each element of $A$ to one element of $B$ | $f(x)=x^2\colon\mathbb{R}\to\mathbb{R}$ |
+| $\mapsto$ | maps to / mapping arrow | shows the value assigned to an input by a function or transformation | $x\mapsto x^2$ |
 | $f'(x)$ | derivative | rate of change of a function | $f(x)=x^2\implies f'(x)=2x$ |
 | $\int f(x)\,dx$ | integral | accumulation or an antiderivative | $\int 2x\,dx=x^2+C$ |
 
