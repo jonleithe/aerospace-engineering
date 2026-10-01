@@ -102,7 +102,7 @@ The set $\{\vec{e}_1,\ldots,\vec{e}_n\}$ is the **standard basis** for
 $\mathbb{R}^n$. Its three-dimensional form is shown in
 @fig-4-3-standard-basis-r3.
 
-![The standard basis vectors $\vec{e}_1$, $\vec{e}_2$, and $\vec{e}_3$ along the three coordinate axes.](../../images/linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid-refined.png){#fig-4-3-standard-basis-r3 width=58% fig-align="center"}
+![The standard basis vectors $\vec{e}_1$, $\vec{e}_2$, and $\vec{e}_3$ along the three coordinate axes.](../../images/linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid-colored-vectors.png){#fig-4-3-standard-basis-r3 width=58% fig-align="center"}
 
 ### Example 5: testing a set of vectors in $\mathbb{R}^3$
 

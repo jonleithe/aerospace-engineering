@@ -1,5 +1,5 @@
 ---
-title       : Linear Transformations
+title       : 1.8 Linear Transformations
 subject     : Linear Algebra
 source      : Linear Algebra and Its Applications, 6th edition
 author      : Jon Leithe

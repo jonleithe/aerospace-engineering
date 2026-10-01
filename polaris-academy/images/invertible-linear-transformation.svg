@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" role="img" aria-labelledby="title desc">
+  <title id="title">An invertible transformation and its inverse</title>
+  <desc id="desc">A transformation maps x to y, and its inverse maps y back to x. Applying either composition returns the original input.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#eeeeee" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow-forward" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3e718e"/>
+    </marker>
+    <marker id="arrow-inverse" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M8,0 L0,4 L8,8 Z" fill="#b66b48"/>
+    </marker>
+  </defs>
+  <rect width="900" height="330" fill="#ffffff"/>
+  <rect width="900" height="330" fill="url(#grid)"/>
+
+  <path d="M252 113 C350 35 550 35 648 113" fill="none" stroke="#3e718e" stroke-width="2.4" marker-end="url(#arrow-forward)"/>
+  <path d="M648 159 C550 237 350 237 252 159" fill="none" stroke="#b66b48" stroke-width="2.4" marker-end="url(#arrow-inverse)"/>
+
+  <circle cx="180" cy="136" r="57" fill="#ffffff" fill-opacity="0.94" stroke="#43525a" stroke-width="2"/>
+  <circle cx="720" cy="136" r="57" fill="#ffffff" fill-opacity="0.94" stroke="#43525a" stroke-width="2"/>
+  <text x="180" y="143" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="25" fill="#273238">x ∈ ℝⁿ</text>
+  <text x="720" y="143" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="25" fill="#273238">y ∈ ℝⁿ</text>
+
+  <text x="450" y="61" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#315f79">T</text>
+  <text x="450" y="224" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#9b573a">T⁻¹</text>
+  <text x="450" y="294" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="22" fill="#38464d">T⁻¹(T(x)) = x     T(T⁻¹(y)) = y</text>
+</svg>

@@ -6,6 +6,10 @@ author      : Jon Leithe
 date        : 2026-09-20
 ---
 
+The **Invertible linear transformations** section below is based on the
+handwritten note
+[`2-3-characterization-of-invertible-matrices.pdf`](../hand-written/2-3-characterization-of-invertible-matrices.pdf).
+
 For a square matrix, invertibility is not an isolated property. It is
 equivalent to statements about pivots, solutions of linear systems,
 linear independence, spanning, rank, and the associated linear
@@ -49,6 +53,25 @@ determinant gives another quick test once determinants have been introduced.
 
 ## Invertible linear transformations
 
+Let $T\colon\mathbb{R}^n\to\mathbb{R}^n$ be a linear transformation. It is
+**invertible** if there is a function $S\colon\mathbb{R}^n\to\mathbb{R}^n$
+such that
+
+$$
+S\bigl(T(\vec{x})\bigr)=\vec{x}
+\qquad\text{and}\qquad
+T\bigl(S(\vec{x})\bigr)=\vec{x}
+\quad\text{for every }\vec{x}\in\mathbb{R}^n.
+$$
+
+The first identity says that $S$ undoes $T$; the second says that $T$ undoes
+$S$. Such a function is the inverse of $T$, written $T^{-1}$. The next theorem
+shows that this inverse is unique and is itself a linear transformation.
+
+@fig-inverse-transformation shows the two maps acting in opposite directions.
+
+![An invertible linear transformation and its inverse undo each other.](../../images/invertible-linear-transformation.svg){#fig-inverse-transformation width=78%}
+
 ::: {.callout-note title="Theorem 9 — Invertible Linear Transformations"}
 
 **Textbook reference:** p.147
@@ -58,15 +81,15 @@ let $A$ be the standard matrix for $T$. Then $T$ is invertible if and only if
 $A$ is an invertible matrix. In that case, the linear transformation
 
 $$
-S(\vec{x})=A^{-1}\vec{x}
+T^{-1}(\vec{x})=A^{-1}\vec{x}
 $$
 
-is the unique inverse of $T$; equivalently,
+is the unique inverse of $T$. Equivalently,
 
 $$
-S\bigl(T(\vec{x})\bigr)=\vec{x}
+T^{-1}\bigl(T(\vec{x})\bigr)=\vec{x}
 \qquad\text{and}\qquad
-T\bigl(S(\vec{x})\bigr)=\vec{x}
+T\bigl(T^{-1}(\vec{x})\bigr)=\vec{x}
 $$
 
 for every $\vec{x}\in\mathbb{R}^n$.

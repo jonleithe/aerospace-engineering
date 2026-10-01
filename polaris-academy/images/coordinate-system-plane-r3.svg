@@ -3,9 +3,9 @@
   <desc id="desc">A plane H through the origin is spanned by basis vectors v one and v two. The point x is two v one plus three v two, so its coordinates in this basis are two and three.</desc>
   <defs>
     <pattern id="paper-grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
-    <marker id="blue-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#3f7897"/></marker>
-    <marker id="rust-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#c17b52"/></marker>
-    <marker id="dark-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#39444b"/></marker>
+    <marker id="blue-arrow" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#3f7897"/></marker>
+    <marker id="rust-arrow" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#c17b52"/></marker>
+    <marker id="dark-arrow" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#39444b"/></marker>
     <clipPath id="plane-clip"><path d="M45 90L385 170L543 462L203 383Z"/></clipPath>
   </defs>
   <rect width="900" height="540" fill="#fff"/>
@@ -24,9 +24,9 @@
   <text x="91" y="26" font-family="Cambria, Georgia, serif" font-size="20" font-style="italic" fill="#59666c">x₁</text>
   <line x1="440" y1="410" x2="335" y2="215" stroke="#3f7897" stroke-width="2.2" stroke-dasharray="7 7"/>
   <line x1="165" y1="175" x2="335" y2="215" stroke="#c17b52" stroke-width="2.2" stroke-dasharray="7 7"/>
-  <line x1="270" y1="370" x2="355" y2="390" stroke="#3f7897" stroke-width="3.5" stroke-linecap="round" marker-end="url(#blue-arrow)"/>
-  <line x1="270" y1="370" x2="235" y2="305" stroke="#c17b52" stroke-width="3.5" stroke-linecap="round" marker-end="url(#rust-arrow)"/>
-  <line x1="270" y1="370" x2="335" y2="215" stroke="#39444b" stroke-width="3.5" stroke-linecap="round" marker-end="url(#dark-arrow)"/>
+  <line x1="270" y1="370" x2="355" y2="390" stroke="#3f7897" stroke-width="2.6" stroke-linecap="round" marker-end="url(#blue-arrow)"/>
+  <line x1="270" y1="370" x2="235" y2="305" stroke="#c17b52" stroke-width="2.6" stroke-linecap="round" marker-end="url(#rust-arrow)"/>
+  <line x1="270" y1="370" x2="335" y2="215" stroke="#39444b" stroke-width="2.6" stroke-linecap="round" marker-end="url(#dark-arrow)"/>
   <circle cx="270" cy="370" r="5" fill="#303a40"/>
   <circle cx="335" cy="215" r="8" fill="#39444b" stroke="#fff" stroke-width="2"/>
   <text x="360" y="398" font-family="Cambria, Georgia, serif" font-size="21" font-style="italic" fill="#356d8a">v₁</text>

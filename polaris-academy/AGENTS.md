@@ -239,6 +239,8 @@ Figures should
 - use thin vector shafts and compact arrowheads sized in proportion to them
 - set SVG arrowheads in fixed user-space units so line thickness does not
   scale the heads; coordinate axes should remain lighter than plotted vectors
+- when a plotted vector lies along a coordinate axis, distinguish its shaft and
+  arrowhead from the axis, for example with an accent color
 
 GeoGebra is frequently used for illustrations.
 

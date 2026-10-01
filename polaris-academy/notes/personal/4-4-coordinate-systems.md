@@ -19,6 +19,8 @@ For the preceding ideas, see [Vector Spaces and Subspaces](4-1-vector-spaces-and
 and [Linearly Independent Sets and Bases](4-3-linearly-independent-sets-bases.md).
 For the earlier $\mathbb{R}^2$ lesson from the professor, see
 [Coordinate Systems in $\mathbb{R}^2$](examples/01-coordinate-systems-in-r2.md).
+The next chapter develops dimension and rank-nullity consequences in
+[Dimension of a Vector Space](4-5-dimension-of-a-vector-space.md).
 
 ## Unique representation
 

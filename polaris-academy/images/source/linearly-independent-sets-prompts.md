@@ -9,12 +9,13 @@ texture and preserve the hand-drawn mathematical content.
 ## Standard basis for $\mathbb{R}^3$
 
 Source: `linearly-independent-sets-standard-basis-r3-original-scan.png`  
-Output: `../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid.png`
+Output: `../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid-colored-vectors.png`
 
 Preserve the three axes meeting at one origin, with $x_3$ upward, $x_1$
 down-left, and $x_2$ down-right. Retain the three corresponding basis vectors
-and compact magenta arrowheads, with labels $\vec e_1$, $\vec e_2$, and
-$\vec e_3$. Keep each arrowhead only slightly wider than its vector shaft.
+and labels $\vec e_1$, $\vec e_2$, and $\vec e_3$. Color each vector shaft and
+arrowhead magenta from the common origin to its tip; keep the coordinate-axis
+continuations black. Keep each arrowhead only slightly wider than its shaft.
 Replace the photographed paper with white and a very faint page-aligned square
 grid. Keep the original geometry and hand-drawn character.
 
@@ -22,8 +23,8 @@ The published compact-arrow version is
 `../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid-compact-arrows.png`.
 The earlier cleanup output remains available as
 `../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid.png`.
-The latest version, used in the chapter, has thinner coordinate axes and
-slightly larger magenta arrowheads:
+The previous version, used in the chapter before the vectors were recolored,
+has thinner coordinate axes and slightly larger magenta arrowheads:
 `../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid-refined.png`.
 
 ## Standard basis for $P_2$

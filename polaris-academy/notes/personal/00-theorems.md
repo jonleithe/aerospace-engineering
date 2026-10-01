@@ -241,6 +241,41 @@ Because one coefficient is nonzero, this is a nontrivial (see [Theorem 1.2.2](#t
 
 :::
 
+## Chapter 1.9 – The Matrix of a Linear Transformation
+
+::: {#theorem-1-9-10 .callout-note title="Theorem 10 — The Standard Matrix of a Linear Transformation"}
+
+**Textbook reference:** p.69
+
+Let $T:\mathbb{R}^n\to\mathbb{R}^m$ be linear. There is a unique $m\times n$
+matrix $A$ such that $T(\vec{x})=A\vec{x}$ for every $\vec{x}\in\mathbb{R}^n$.
+The $j$th column of $A$ is $T(\vec{e}_j)$.
+
+:::
+
+::: {#theorem-1-9-11 .callout-note title="Theorem 11 — A Test for One-to-One Transformations"}
+
+**Textbook reference:** p.70
+
+Let $T:\mathbb{R}^n\to\mathbb{R}^m$ be linear. Then $T$ is one-to-one if
+and only if $T(\vec{x})=\vec{0}$ has only the trivial solution
+$\vec{x}=\vec{0}$.
+
+:::
+
+::: {#theorem-1-9-12 .callout-note title="Theorem 12 — Tests Using the Standard Matrix"}
+
+**Textbook reference:** p.71
+
+Let $T:\mathbb{R}^n\to\mathbb{R}^m$ be linear with standard matrix $A$.
+Then $T$ maps onto $\mathbb{R}^m$ if and only if the columns of $A$ span
+$\mathbb{R}^m$, and $T$ is one-to-one if and only if the columns of $A$ are
+linearly independent.
+
+:::
+
+**Source note:** [The Matrix of a Linear Transformation](1-9-the-matrix-of-a-linear-transformation.md).
+
 ## Chapter 2.2 – The Inverse of a Matrix
 
 ::: {#theorem-2-2-4 .callout-note title="Theorem 2.2.4 — Inverse of a Two-by-Two Matrix"}
@@ -355,6 +390,24 @@ n. $\operatorname{Col}(A)=\mathbb{R}^n$.
 o. $\operatorname{rank}(A)=n$.
 p. $\dim\bigl(\operatorname{Nul}(A)\bigr)=0$.
 q. $\operatorname{Nul}(A)=\{\vec{0}\}$.
+
+:::
+
+::: {#theorem-2-3-9 .callout-note title="Theorem 2.3.9 — Invertible Linear Transformations"}
+
+**Textbook reference:** p.147
+
+**Source note:** [Characterizations of Invertible Matrices](2-3-characterizations-of-invertible-matrices.md)
+
+Let $T\colon\mathbb{R}^n\to\mathbb{R}^n$ be a linear transformation with
+standard matrix $A$. Then $T$ is invertible if and only if $A$ is invertible.
+In that case,
+
+$$
+T^{-1}(\vec{x})=A^{-1}\vec{x}
+$$
+
+is the unique inverse of $T$.
 
 :::
 
@@ -682,5 +735,57 @@ $$
 If $\mathcal{B}$ is a basis for an $n$-dimensional vector space $V$, then
 the coordinate mapping $\vec{x}\mapsto[\vec{x}]_{\mathcal{B}}$ is a one-to-one
 linear transformation from $V$ onto $\mathbb{R}^n$.
+
+:::
+
+## Chapter 4.5 – Dimension of a Vector Space
+
+::: {#theorem-4-5-10 .callout-note title="Theorem 4.5.10 — An Upper Bound for Independent Sets"}
+
+**Source note:** [Dimension of a Vector Space](4-5-dimension-of-a-vector-space.md)
+
+If a vector space has a basis of $n$ vectors, every set of more than $n$
+vectors in that space is linearly dependent.
+
+:::
+
+::: {#theorem-4-5-11 .callout-note title="Theorem 4.5.11 — Every Basis Has the Same Size"}
+
+**Source note:** [Dimension of a Vector Space](4-5-dimension-of-a-vector-space.md)
+
+If one basis for $V$ has $n$ vectors, then every basis for $V$ has exactly
+$n$ vectors.
+
+:::
+
+::: {#theorem-4-5-12 .callout-note title="Theorem 4.5.12 — Dimension of a Subspace"}
+
+**Source note:** [Dimension of a Vector Space](4-5-dimension-of-a-vector-space.md)
+
+If $H$ is a subspace of a finite-dimensional vector space $V$, then $H$ is
+finite-dimensional and $\dim H\leq\dim V$. Every linearly independent set
+in $H$ can be extended to a basis for $H$.
+
+:::
+
+::: {#theorem-4-5-13 .callout-note title="Theorem 4.5.13 — Basis Test Using Dimension"}
+
+**Source note:** [Dimension of a Vector Space](4-5-dimension-of-a-vector-space.md)
+
+If $\dim V=p\geq1$, then every independent set of exactly $p$ vectors in
+$V$ is a basis, and every set of exactly $p$ vectors that spans $V$ is a
+basis.
+
+:::
+
+::: {#theorem-4-5-14 .callout-note title="Theorem 4.5.14 — The Rank Theorem"}
+
+**Source note:** [Dimension of a Vector Space](4-5-dimension-of-a-vector-space.md)
+
+For an $m\times n$ matrix $A$,
+
+$$
+\operatorname{rank}(A)+\operatorname{nullity}(A)=n.
+$$
 
 :::

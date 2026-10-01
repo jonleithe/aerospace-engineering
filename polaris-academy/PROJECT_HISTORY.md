@@ -4,6 +4,28 @@ This file records durable context and decisions from AI-assisted project work.
 It contains concise summaries rather than verbatim chat transcripts. The newest
 entry should be added at the top of the history.
 
+## 2026-10-01 — Added Chapter 1.9 on matrix representations
+
+- Converted the handwritten note into a chapter on standard matrices,
+  onto and one-to-one transformations, and the matrix tests for both.
+- Added the rotation-matrix diagram, theorem-index entries, and links to the
+  supplied MATLAB examples. Corrected the final preimage's fixed fourth
+  coordinate in Example 4.
+
+## 2026-10-01 — Added Chapter 4.5 on vector-space dimension
+
+- Converted the new six-page handwritten note into a chapter on finite and
+  infinite dimensions, subspace dimensions, and rank-nullity applications.
+- Added diagrams for subspaces of $\mathbb{R}^3$ and the orthogonality of the
+  four fundamental subspaces, plus a theorem-index entry and MATLAB link.
+
+## 2026-10-01 — Clarified vector styling in Chapters 4.3 and 4.4
+
+- Colored the Chapter 4.3 standard-basis vectors magenta while leaving the
+  coordinate axes black, so coincident vectors remain visible.
+- Reduced plotted vector strokes and slightly enlarged fixed arrowheads in the
+  Chapter 4.4 coordinate-system figures.
+
 ## 2026-09-30 — Harmonized vector weights across note figures
 
 - Reviewed referenced figures from Chapter 2.8 through Chapter 4.4 and

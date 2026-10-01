@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">The four fundamental subspaces for Example 7</title>
+  <desc id="desc">Two coordinate frames show the row space and null space in the input copy of R3, and the column space and null space of the transpose in a separate output copy. An arrow labeled A maps between the spaces.</desc>
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#eeeeee" stroke-width="1"/>
+    </pattern>
+    <marker id="null-arrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" refX="8" refY="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#bd7049"/>
+    </marker>
+    <marker id="map-arrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#303a40"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="560" fill="#ffffff"/>
+  <rect width="1200" height="560" fill="url(#grid)"/>
+
+  <!-- Row(A) is spanned by the x1 and x3 axes. -->
+  <polygon points="205,230 355,140 355,380 205,470" fill="#dcebf0" fill-opacity=".9" stroke="#3f7897" stroke-width="2.5"/>
+  <!-- Col(A) is spanned by x3 and the direction x1 + x2. -->
+  <polygon points="865,183 975,227 975,383 865,339" fill="#dcebf0" fill-opacity=".82" stroke="#3f7897" stroke-width="2.5"/>
+
+  <g fill="none" stroke="#303a40" stroke-width="2">
+    <!-- Input copy of R3: x1, x2, and x3 axes. -->
+    <path d="M355 260L280 305L205 350"/>
+    <path d="M160 280L280 305L400 330"/>
+    <path d="M280 475V135"/>
+    <!-- Output copy of R3: the same coordinate directions in a separate space. -->
+    <path d="M990 255L920 305L850 355"/>
+    <path d="M795 333L920 305L1045 277"/>
+    <path d="M920 475V135"/>
+  </g>
+
+  <!-- The null spaces are drawn over their coordinate directions in orange. -->
+  <line x1="150" y1="278" x2="410" y2="333" stroke="#bd7049" stroke-width="3.3" marker-start="url(#null-arrow)" marker-end="url(#null-arrow)"/>
+  <line x1="725" y1="383" x2="1115" y2="227" stroke="#bd7049" stroke-width="3.3" marker-start="url(#null-arrow)" marker-end="url(#null-arrow)"/>
+
+  <line x1="455" y1="215" x2="745" y2="215" stroke="#303a40" stroke-width="2.1" marker-end="url(#map-arrow)"/>
+  <text x="600" y="201" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="23" font-style="italic" fill="#303a40">A</text>
+
+  <g font-family="Cambria, Georgia, serif" font-style="italic">
+    <text x="305" y="205" font-size="20" fill="#356d8a">Row(A)</text>
+    <text x="920" y="266" text-anchor="middle" font-size="20" fill="#356d8a" paint-order="stroke" stroke="#dcebf0" stroke-width="5">Col(A)</text>
+    <text x="335" y="342" font-size="19" fill="#a95f3e">Nul(A)</text>
+    <text x="1050" y="267" font-size="19" fill="#a95f3e">Nul(Aᵀ)</text>
+  </g>
+
+  <g font-family="Cambria, Georgia, serif" font-size="18" fill="#303a40">
+    <text x="266" y="126">x₃</text>
+    <text x="183" y="371">x₁</text>
+    <text x="410" y="351">x₂</text>
+    <text x="906" y="126">x₃</text>
+    <text x="822" y="376">x₁</text>
+    <text x="1050" y="284">x₂</text>
+    <text x="288" y="326" font-size="16">O</text>
+    <text x="928" y="326" font-size="16">O</text>
+  </g>
+
+  <g font-family="Cambria, Georgia, serif" font-size="21" text-anchor="middle" fill="#303a40">
+    <text x="280" y="526">ℝ³</text>
+    <text x="920" y="526">ℝ³</text>
+  </g>
+</svg>

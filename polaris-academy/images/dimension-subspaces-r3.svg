@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+  <title id="title">Subspaces of three-dimensional space by dimension</title>
+  <desc id="desc">Four panels show the zero subspace as the origin, a one-dimensional line through the origin, a two-dimensional plane through the origin, and all of three-dimensional space.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#edf0f1" stroke-width="1"/></pattern>
+    <marker id="axis-arrow" viewBox="0 0 9 9" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" refX="7.5" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#748188"/></marker>
+  </defs>
+  <rect width="1200" height="410" fill="#fff"/>
+  <rect width="1200" height="410" fill="url(#grid)"/>
+  <g font-family="Cambria, Georgia, serif" fill="#303a40" text-anchor="middle">
+    <text x="150" y="42" font-size="23">0-dimensional</text>
+    <text x="450" y="42" font-size="23">1-dimensional</text>
+    <text x="750" y="42" font-size="23">2-dimensional</text>
+    <text x="1050" y="42" font-size="23">3-dimensional</text>
+    <text x="150" y="386" font-size="18">{0}</text>
+    <text x="450" y="386" font-size="18">line through 0</text>
+    <text x="750" y="386" font-size="18">plane through 0</text>
+    <text x="1050" y="386" font-size="18">R³</text>
+  </g>
+  <polygon points="750,193 634,265 750,337 866,265" fill="#dcebf0" fill-opacity=".82" stroke="#3f7897" stroke-width="2.4"/>
+  <g stroke="#3f7897" stroke-width="2.2">
+    <polygon points="1050,265 1010,295 1050,325 1090,295" fill="#dcebf0" fill-opacity=".7"/>
+    <polygon points="1050,165 1010,195 1050,225 1090,195" fill="#dcebf0" fill-opacity=".48"/>
+    <path d="M1050 265L1050 165M1010 295L1010 195M1050 325L1050 225M1090 295L1090 195" fill="none"/>
+  </g>
+  <g fill="none" stroke="#748188" stroke-width="1.7" stroke-linecap="round" marker-end="url(#axis-arrow)">
+    <path d="M150 265L92 301M150 265L208 301M150 265L150 143"/>
+    <path d="M450 265L392 301M450 265L508 301M450 265L450 143"/>
+    <path d="M750 265L692 301M750 265L808 301M750 265L750 143"/>
+    <path d="M1050 265L992 301M1050 265L1108 301M1050 265L1050 143"/>
+  </g>
+  <path d="M358 322L450 265L542 322" fill="none" stroke="#3f7897" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Cambria, Georgia, serif" font-size="16" font-style="italic" fill="#59666c">
+    <text x="80" y="316">x₁</text><text x="210" y="316">x₂</text><text x="157" y="140">x₃</text>
+    <text x="380" y="316">x₁</text><text x="510" y="316">x₂</text><text x="457" y="140">x₃</text>
+    <text x="680" y="316">x₁</text><text x="810" y="316">x₂</text><text x="757" y="140">x₃</text>
+    <text x="980" y="316">x₁</text><text x="1110" y="316">x₂</text><text x="1057" y="140">x₃</text>
+  </g>
+  <circle cx="150" cy="265" r="6" fill="#3f7897"/>
+  <circle cx="750" cy="265" r="4" fill="#39444b"/>
+  <circle cx="1050" cy="265" r="4" fill="#39444b"/>
+</svg>

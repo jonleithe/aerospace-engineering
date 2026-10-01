@@ -3,9 +3,9 @@
   <desc id="desc">A parallelepiped unit cell is spanned by three lattice basis vectors u, v, and w. A point inside it is located by fractional coordinates relative to those vectors.</desc>
   <defs>
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
-    <marker id="blue-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#3f7897"/></marker>
-    <marker id="rust-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#c17b52"/></marker>
-    <marker id="dark-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#39444b"/></marker>
+    <marker id="blue-arrow" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#3f7897"/></marker>
+    <marker id="rust-arrow" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#c17b52"/></marker>
+    <marker id="dark-arrow" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#39444b"/></marker>
   </defs>
   <rect width="900" height="500" fill="#fff"/>
   <rect width="900" height="500" fill="url(#grid)"/>
@@ -13,9 +13,9 @@
   <path d="M180 355L180 145L320 10L320 220Z" fill="#e9eff0" fill-opacity=".7" stroke="#6e8791" stroke-width="2"/>
   <path d="M180 145L470 170L610 35L320 10Z" fill="#dcebf0" fill-opacity=".32" stroke="#6e8791" stroke-width="2"/>
   <path d="M470 380L470 170M610 245L610 35" fill="none" stroke="#6e8791" stroke-width="2"/>
-  <line x1="180" y1="355" x2="470" y2="380" stroke="#3f7897" stroke-width="3.5" marker-end="url(#blue-arrow)"/>
-  <line x1="180" y1="355" x2="320" y2="220" stroke="#c17b52" stroke-width="3.5" marker-end="url(#rust-arrow)"/>
-  <line x1="180" y1="355" x2="180" y2="145" stroke="#39444b" stroke-width="3.5" marker-end="url(#dark-arrow)"/>
+  <line x1="180" y1="355" x2="470" y2="380" stroke="#3f7897" stroke-width="2.6" marker-end="url(#blue-arrow)"/>
+  <line x1="180" y1="355" x2="320" y2="220" stroke="#c17b52" stroke-width="2.6" marker-end="url(#rust-arrow)"/>
+  <line x1="180" y1="355" x2="180" y2="145" stroke="#39444b" stroke-width="2.6" marker-end="url(#dark-arrow)"/>
   <line x1="180" y1="355" x2="395" y2="195" stroke="#39444b" stroke-width="2.5" stroke-dasharray="7 7"/>
   <circle cx="395" cy="195" r="8" fill="#c17b52" stroke="#fff" stroke-width="2"/>
   <text x="485" y="390" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#356d8a">u</text>
