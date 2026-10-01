@@ -4,6 +4,31 @@ This file records durable context and decisions from AI-assisted project work.
 It contains concise summaries rather than verbatim chat transcripts. The newest
 entry should be added at the top of the history.
 
+## 2026-09-30 — Harmonized vector weights across note figures
+
+- Reviewed referenced figures from Chapter 2.8 through Chapter 4.4 and
+  standardized editable diagrams on thin vector shafts with fixed-size
+  arrowheads. Corrected marker scaling in the Chapter 2.9 exercise sources.
+- Refined the Chapter 2.9 basis-coordinate and Chapter 4.3 standard-basis
+  raster figures while keeping the previous image versions available.
+
+## 2026-09-30 — Reduced figure arrowhead size
+
+- Set published SVG arrowheads to fixed user-space dimensions so thicker
+  vector strokes no longer enlarge the heads.
+- Updated the Chapter 4.3 standard-basis figure to use compact arrowheads and
+  kept the earlier image available.
+
+## 2026-09-30 — Added Chapter 4.4 on coordinate systems
+
+- Converted the new handwritten `4-4-coordinate-systems.pdf` into a published
+  chapter covering unique representation, coordinate vectors and mappings,
+  basis matrices, polynomial coordinates, and coordinates on a plane.
+- Added the chapter's two theorems to the theorem index, linked its MATLAB
+  dependence example, and retained the earlier $\mathbb{R}^2$ calculation as
+  an early-lecture page. Added diagrams for basis grids, a crystal unit cell,
+  the coordinate mapping, and coordinates on a plane.
+
 ## 2026-09-29 — Expanded Chapter 4.1 from the revised handwritten notes
 
 - Expanded the vector-space chapter to include examples using geometric

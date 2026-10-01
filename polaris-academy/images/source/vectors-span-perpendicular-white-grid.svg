@@ -3,9 +3,9 @@
 <desc id="desc">Equal-scale coordinate axes show v from the origin to (2,1) and w from the origin to (-1,2). A counterclockwise arc and right-angle marker show the 90 degree rotation.</desc>
 <rect width="800" height="550" fill="white"/>
 <defs>
- <marker id="axis-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#393632" stroke-width="1.5" stroke-linejoin="round"/></marker>
- <marker id="blue-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#24678d" stroke-width="1.8" stroke-linejoin="round"/></marker>
- <marker id="red-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#a34f36" stroke-width="1.8" stroke-linejoin="round"/></marker>
+ <marker id="axis-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13.2" markerHeight="13.2" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#393632" stroke-width="1.5" stroke-linejoin="round"/></marker>
+ <marker id="blue-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13.2" markerHeight="13.2" markerUnits="userSpaceOnUse" orient="auto"><path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#24678d" stroke-width="1.8" stroke-linejoin="round"/></marker>
+ <marker id="red-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13.2" markerHeight="13.2" markerUnits="userSpaceOnUse" orient="auto"><path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#a34f36" stroke-width="1.8" stroke-linejoin="round"/></marker>
 </defs>
 <!-- One coordinate unit is exactly 100 pixels in both directions. -->
 <g stroke="#eeeeee" stroke-width="1">

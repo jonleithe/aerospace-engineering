@@ -13,9 +13,18 @@ Output: `../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid.pn
 
 Preserve the three axes meeting at one origin, with $x_3$ upward, $x_1$
 down-left, and $x_2$ down-right. Retain the three corresponding basis vectors
-and magenta arrowheads, with labels $\vec e_1$, $\vec e_2$, and $\vec e_3$.
+and compact magenta arrowheads, with labels $\vec e_1$, $\vec e_2$, and
+$\vec e_3$. Keep each arrowhead only slightly wider than its vector shaft.
 Replace the photographed paper with white and a very faint page-aligned square
 grid. Keep the original geometry and hand-drawn character.
+
+The published compact-arrow version is
+`../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid-compact-arrows.png`.
+The earlier cleanup output remains available as
+`../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid.png`.
+The latest version, used in the chapter, has thinner coordinate axes and
+slightly larger magenta arrowheads:
+`../linearly-independent-sets-standard-basis-r3-hand-drawn-white-grid-refined.png`.
 
 ## Standard basis for $P_2$
 

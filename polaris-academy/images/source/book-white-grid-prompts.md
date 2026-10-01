@@ -85,6 +85,10 @@ Output: `../vector-projection-002-polaris-white-grid.png`
 
 Edit this vector projection textbook illustration into restrained hand-drawn pencil lines and readable hand-lettered math, on pure white #FFFFFF background with very faint neutral gray #EEEEEE coordinate grid aligned to integer ticks. Remove all beige tint. Preserve exact axes scaling and plotted positions: a=(1,5), b=(5,-3), projection a1=(-25/17,15/17), red projection arrow from origin to a1, dashed red residual from a1 to a and right-angle marker at a1. Preserve every existing label, equation, title and legend. CRITICAL correction: REMOVE the entire pale green dashed diagonal line currently running from lower left to upper right: it is mathematically wrong. Do not replace it with another guide line. Keep only the solid green b arrow. Preserve all other geometry. Same landscape aspect ratio, generous margins. Hand-drawn pencil style consistent with engineering notes.
 
+The course note uses `../vector-projection-002-polaris-white-grid-refined.png`,
+which preserves the diagram while lightening the primary vector shafts and
+making their arrowheads compact and consistent.
+
 ## book-cover-top-left-white.png
 
 Original: `../book-cover-top-left.png`

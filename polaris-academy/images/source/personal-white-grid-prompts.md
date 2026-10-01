@@ -54,6 +54,10 @@ Output: `../dimension-and-rank-basis-coordinates-white-grid.png`
 
 Edit target: supplied mathematical illustration. Change its paper background to pure solid white (#FFFFFF), with a VERY faint regular square grid: thin neutral light gray (#EEEEEE) horizontal and vertical lines, approximately 14 equal square cells across the full image width. Grid is flat page-aligned, not perspective. Remove ALL cream/yellow background tint, paper grain and diagonal background crosshatching. Keep the hand-drawn colored pencil diagram style, existing colors and shading INSIDE mathematical objects. Preserve exact composition, aspect ratio, every mathematical label, equation, point position, line, arrow direction and angle marker. Do not add or omit mathematical content. Grid must be barely noticeable and behind the drawing. No title, border, new labels, or decoration. Return one edited image.
 
+The chapter uses `../dimension-and-rank-basis-coordinates-white-grid-refined.png`,
+which keeps the geometry and handwriting while thinning the vector shafts and
+reducing the oversized arrowheads.
+
 ## distance-between-planes-construction-white-grid.png
 
 Original: `../distance-between-planes-construction-hand-drawn-warm-crosshatched.png`

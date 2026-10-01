@@ -2,16 +2,16 @@
   <title id="title">Projection of a vector onto another vector</title>
   <desc id="description">The vectors a equals (1, 5) and b equals (5, minus 3), their projection, and the perpendicular residual component.</desc>
   <defs>
-    <marker id="arrow-slate" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <marker id="arrow-slate" viewBox="0 0 11 11" refX="9" refY="5.5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#49372d"/>
     </marker>
-    <marker id="arrow-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <marker id="arrow-orange" viewBox="0 0 11 11" refX="9" refY="5.5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#c86f20"/>
     </marker>
-    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <marker id="arrow-green" viewBox="0 0 11 11" refX="9" refY="5.5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#71813a"/>
     </marker>
-    <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <marker id="arrow-red" viewBox="0 0 11 11" refX="9" refY="5.5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#a84a3d"/>
     </marker>
   </defs>
@@ -30,7 +30,7 @@
   <text x="910" y="96" fill="#49372d" font-family="DejaVu Sans, sans-serif" font-size="23" font-style="italic">b · b</text>
   <text x="1026" y="86" fill="#49372d" font-family="DejaVu Sans, sans-serif" font-size="27" font-style="italic">b</text>
 
-  <g stroke="#49372d" stroke-width="2.7" fill="none" marker-end="url(#arrow-slate)">
+  <g stroke="#49372d" stroke-width="2" fill="none" marker-end="url(#arrow-slate)">
     <path d="M80 530H1085"/>
     <path d="M360 735V145"/>
   </g>
@@ -49,14 +49,14 @@
 
   <!-- The vector b and its supporting line. -->
   <path d="M150 656 L780 278" stroke="#a7af78" stroke-width="2.5" stroke-dasharray="9 9" fill="none"/>
-  <path d="M360 530 L660 710" stroke="#71813a" stroke-width="5" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M360 530 L660 710" stroke="#71813a" stroke-width="3.5" fill="none" marker-end="url(#arrow-green)"/>
   <circle cx="660" cy="710" r="5.5" fill="#71813a"/>
   <text x="690" y="686" fill="#5d6b2f" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-style="italic">b = (5, −3)</text>
 
   <!-- Projection, its perpendicular residual, and the original vector. -->
-  <path d="M360 530 L272 477" stroke="#a84a3d" stroke-width="5" fill="none" marker-end="url(#arrow-red)"/>
+  <path d="M360 530 L272 477" stroke="#a84a3d" stroke-width="3.5" fill="none" marker-end="url(#arrow-red)"/>
   <path d="M272 477 L420 230" stroke="#a84a3d" stroke-width="3.5" stroke-dasharray="12 10" fill="none"/>
-  <path d="M360 530 L420 230" stroke="#c86f20" stroke-width="5" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M360 530 L420 230" stroke="#c86f20" stroke-width="3.5" fill="none" marker-end="url(#arrow-orange)"/>
   <circle cx="420" cy="230" r="5.5" fill="#c86f20"/>
   <circle cx="272" cy="477" r="5.5" fill="#a84a3d"/>
   <path d="M289 487 L299 470 L282 460" stroke="#6d5546" stroke-width="2.5" fill="none"/>

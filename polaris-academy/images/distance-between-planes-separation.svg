@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="390" viewBox="0 0 800 390">
-  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto-start-reverse"><path d="M0,0 L7,3 L0,6" fill="#263746"/></marker></defs>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" refX="7" refY="3" orient="auto-start-reverse"><path d="M0,0 L7,3 L0,6" fill="#263746"/></marker></defs>
   <rect width="800" height="390" fill="white"/>
   <g stroke-width="3"><path d="M80,85 H710 M80,305 H710" stroke="#b96b32"/><path d="M80,195 H710" stroke="#3876a5"/></g>
   <g stroke="#263746" fill="none" stroke-width="2">

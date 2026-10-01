@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">One vector described in standard and basis coordinates</title>
+  <desc id="desc">Two panels show the same vector x. On the standard grid its coordinates are one and six. On a grid adapted to basis vectors b1 and b2 its coordinates are minus two and three.</desc>
+  <defs>
+    <pattern id="paper-grid" width="42" height="34" patternUnits="userSpaceOnUse"><path d="M42 0H0V34" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
+    <marker id="blue-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#3f7897"/></marker>
+    <marker id="rust-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#c17b52"/></marker>
+    <marker id="dark-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#39444b"/></marker>
+    <clipPath id="basis-panel"><rect x="530" y="58" width="440" height="390" rx="4"/></clipPath>
+  </defs>
+  <rect width="1000" height="520" fill="#fff"/>
+  <rect x="30" y="58" width="440" height="390" fill="url(#paper-grid)"/>
+  <g clip-path="url(#basis-panel)" fill="none" stroke="#dfe7e9">
+    <g transform="matrix(42 0 42 -68 750 430)" stroke-width="0.025">
+      <path d="M-9 -8H9 M-9 -7H9 M-9 -6H9 M-9 -5H9 M-9 -4H9 M-9 -3H9 M-9 -2H9 M-9 -1H9 M-9 0H9 M-9 1H9 M-9 2H9 M-9 3H9 M-9 4H9 M-9 5H9 M-9 6H9 M-9 7H9 M-9 8H9"/>
+      <path d="M-9 -8V8 M-8 -8V8 M-7 -8V8 M-6 -8V8 M-5 -8V8 M-4 -8V8 M-3 -8V8 M-2 -8V8 M-1 -8V8 M0 -8V8 M1 -8V8 M2 -8V8 M3 -8V8 M4 -8V8 M5 -8V8 M6 -8V8 M7 -8V8 M8 -8V8 M9 -8V8"/>
+    </g>
+  </g>
+  <text x="250" y="42" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="25" fill="#303a40">Standard grid</text>
+  <text x="750" y="42" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="25" fill="#303a40">Grid adapted to the basis</text>
+  <line x1="250" y1="430" x2="440" y2="430" stroke="#59666c" stroke-width="2" marker-end="url(#dark-arrow)"/>
+  <line x1="250" y1="430" x2="250" y2="78" stroke="#59666c" stroke-width="2" marker-end="url(#dark-arrow)"/>
+  <text x="425" y="458" font-family="Cambria, Georgia, serif" font-size="20" fill="#59666c">x₁</text>
+  <text x="226" y="91" font-family="Cambria, Georgia, serif" font-size="20" fill="#59666c">x₂</text>
+  <line x1="250" y1="430" x2="292" y2="430" stroke="#3f7897" stroke-width="3.5" stroke-linecap="round" marker-end="url(#blue-arrow)"/>
+  <line x1="250" y1="430" x2="292" y2="362" stroke="#c17b52" stroke-width="3.5" stroke-linecap="round" marker-end="url(#rust-arrow)"/>
+  <line x1="250" y1="430" x2="292" y2="226" stroke="#39444b" stroke-width="3.5" stroke-linecap="round" marker-end="url(#dark-arrow)"/>
+  <circle cx="292" cy="226" r="6" fill="#39444b"/>
+  <text x="302" y="435" font-family="Cambria, Georgia, serif" font-size="22" font-style="italic" fill="#356d8a">b₁</text>
+  <text x="299" y="356" font-family="Cambria, Georgia, serif" font-size="22" font-style="italic" fill="#ad6945">b₂</text>
+  <text x="305" y="218" font-family="Cambria, Georgia, serif" font-size="22" font-style="italic" fill="#303a40">x</text>
+  <text x="250" y="488" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="22" fill="#303a40">[x]ₑ = (1, 6)</text>
+  <line x1="750" y1="430" x2="792" y2="430" stroke="#3f7897" stroke-width="3.5" stroke-linecap="round" marker-end="url(#blue-arrow)"/>
+  <line x1="750" y1="430" x2="792" y2="362" stroke="#c17b52" stroke-width="3.5" stroke-linecap="round" marker-end="url(#rust-arrow)"/>
+  <line x1="750" y1="430" x2="792" y2="226" stroke="#39444b" stroke-width="3.5" stroke-linecap="round" marker-end="url(#dark-arrow)"/>
+  <circle cx="792" cy="226" r="6" fill="#39444b"/>
+  <text x="803" y="435" font-family="Cambria, Georgia, serif" font-size="22" font-style="italic" fill="#356d8a">b₁</text>
+  <text x="800" y="356" font-family="Cambria, Georgia, serif" font-size="22" font-style="italic" fill="#ad6945">b₂</text>
+  <text x="805" y="218" font-family="Cambria, Georgia, serif" font-size="22" font-style="italic" fill="#303a40">x</text>
+  <text x="750" y="488" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="22" fill="#303a40">[x]ᵦ = (−2, 3)</text>
+  <text x="500" y="508" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="17" fill="#64747a">The vector is unchanged; only its coordinate description changes.</text>
+</svg>

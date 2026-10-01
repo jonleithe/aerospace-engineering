@@ -659,3 +659,28 @@ Row-equivalent matrices have the same row space. If one is in echelon form,
 its nonzero rows form a basis for the row space of both matrices.
 
 :::
+
+## Chapter 4.4 – Coordinate Systems
+
+::: {#theorem-4-4-8 .callout-note title="Theorem 4.4.8 — Unique Representation Theorem"}
+
+**Source note:** [Coordinate Systems](4-4-coordinate-systems.md)
+
+Let $\mathcal{B}=\{\vec{b}_1,\ldots,\vec{b}_n\}$ be a basis for a vector
+space $V$. Every $\vec{x}\in V$ can be written in exactly one way as
+
+$$
+\vec{x}=c_1\vec{b}_1+\cdots+c_n\vec{b}_n.
+$$
+
+:::
+
+::: {#theorem-4-4-9 .callout-note title="Theorem 4.4.9 — The Coordinate Mapping"}
+
+**Source note:** [Coordinate Systems](4-4-coordinate-systems.md)
+
+If $\mathcal{B}$ is a basis for an $n$-dimensional vector space $V$, then
+the coordinate mapping $\vec{x}\mapsto[\vec{x}]_{\mathcal{B}}$ is a one-to-one
+linear transformation from $V$ onto $\mathbb{R}^n$.
+
+:::

@@ -9,6 +9,10 @@ A vector is a geometric object, while its coordinates depend on the basis used
 to describe it. Changing the basis changes the coordinate values, but it does
 not change the vector itself
 
+This page preserves an early lesson from the professor. The later chapter
+[Coordinate Systems](../4-4-coordinate-systems.md) develops the same idea for
+general vector spaces and includes the change-of-basis matrix method.
+
 Let
 
 $$

@@ -3,7 +3,8 @@
 The two coordinate diagrams are clean vector redrawings of the constructions
 in `exercises-2-9.pdf`. The light grid uses equal x and y scales. Component
 arrows follow the handwritten solutions, and the darker arrow shows the
-resultant vector.
+resultant vector. Vector shafts use a light stroke, while fixed user-space
+arrowheads keep a consistent size in SVG and raster output.
 
 The coordinates are exact:
 

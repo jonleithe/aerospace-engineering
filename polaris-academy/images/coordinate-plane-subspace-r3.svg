@@ -3,7 +3,7 @@
   <desc id="desc">The shaded plane x3 equals zero passes through the origin and is a subspace of three-dimensional space.</desc>
   <defs>
     <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#39444b"/></marker>
+    <marker id="arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#39444b"/></marker>
   </defs>
   <rect width="900" height="540" fill="#fff"/>
   <rect width="900" height="540" fill="url(#grid)"/>

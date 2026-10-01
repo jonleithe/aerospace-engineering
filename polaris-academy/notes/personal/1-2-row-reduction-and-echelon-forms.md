@@ -153,7 +153,7 @@ $$
 Therefore, $A$ is invertible. Equivalently, there is a pivot in every row and
 every column, so this square system has exactly one solution.
 
-Elimination also shows how inconsistency would appear. Suppose, for example,
+Elimination also shows how inconsivstency would appear. Suppose, for example,
 that the final equation reduced to
 
 $$

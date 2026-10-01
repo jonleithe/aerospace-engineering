@@ -519,7 +519,7 @@ Referring to @fig-vector-projection-002, the red vector represents the
 projection of $\vec{a}$ onto $\vec{b}$. The dashed red segment is the
 remaining component, which is orthogonal to $\vec{b}$.
 
-![The projection of $\vec{a}$ onto $\vec{b}$, with the orthogonal residual shown as a dashed red segment.](../../../../images/vector-projection-002-polaris-white-grid.png){#fig-vector-projection-002 width=75%}
+![The projection of $\vec{a}$ onto $\vec{b}$, with the orthogonal residual shown as a dashed red segment.](../../../../images/vector-projection-002-polaris-white-grid-refined.png){#fig-vector-projection-002 width=75%}
 
 <!-- pagebreak -->
 

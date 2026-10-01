@@ -3,10 +3,10 @@
 <desc id="desc">Equal-scale coordinate axes show b one equals (1,1) and b two equals (2, minus 1). A parallelogram construction adds three b one, the vector (3,3), to two b two, the vector (4, minus 2), to reach x equals (7,1).</desc>
 <rect width="1000" height="650" fill="white"/>
 <defs>
- <marker id="axis-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#393632" stroke-width="1.5" stroke-linejoin="round"/></marker>
- <marker id="blue-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#24678d" stroke-width="1.8" stroke-linejoin="round"/></marker>
- <marker id="terra-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a34f36" stroke-width="1.8" stroke-linejoin="round"/></marker>
- <marker id="result-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#74601f" stroke-width="1.8" stroke-linejoin="round"/></marker>
+ <marker id="axis-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13.2" markerHeight="13.2" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#393632" stroke-width="1.5" stroke-linejoin="round"/></marker>
+ <marker id="blue-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13.2" markerHeight="13.2" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#24678d" stroke-width="1.8" stroke-linejoin="round"/></marker>
+ <marker id="terra-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13.2" markerHeight="13.2" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a34f36" stroke-width="1.8" stroke-linejoin="round"/></marker>
+ <marker id="result-arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13.2" markerHeight="13.2" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#74601f" stroke-width="1.8" stroke-linejoin="round"/></marker>
 </defs>
 <!-- Equal scales: 62 pixels per coordinate unit; origin is (190,420). -->
 <g stroke="#eeeeee" stroke-width="1">
@@ -45,9 +45,9 @@
  <text x="744" y="428">x</text><text x="205" y="145">y</text>
 </g>
 <g fill="none" stroke-linecap="round" stroke-linejoin="round">
- <path d="M190 420 L376 234" stroke="#24678d" stroke-width="3.3" marker-end="url(#blue-arrow)"/>
- <path d="M376 234 L624 358" stroke="#a34f36" stroke-width="3.3" marker-end="url(#terra-arrow)"/>
- <path d="M190 420 L624 358" stroke="#74601f" stroke-width="4.2" marker-end="url(#result-arrow)"/>
+ <path d="M190 420 L376 234" stroke="#24678d" stroke-width="2.9" marker-end="url(#blue-arrow)"/>
+ <path d="M376 234 L624 358" stroke="#a34f36" stroke-width="2.9" marker-end="url(#terra-arrow)"/>
+ <path d="M190 420 L624 358" stroke="#74601f" stroke-width="3.5" marker-end="url(#result-arrow)"/>
 </g>
 <g fill="#393632"><circle cx="190" cy="420" r="4"/><circle cx="376" cy="234" r="4"/><circle cx="438" cy="544" r="4"/></g>
 <circle cx="624" cy="358" r="5" fill="#74601f"/>

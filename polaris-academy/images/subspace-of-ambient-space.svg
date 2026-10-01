@@ -7,7 +7,7 @@
   <rect width="900" height="480" fill="#fff"/>
   <rect width="900" height="480" fill="url(#grid)"/>
   <path d="M115 155L675 80L805 330L245 405Z" fill="#eef2f2" fill-opacity=".76" stroke="#65747a" stroke-width="2.5"/>
-  <path d="M285 308L645 182" fill="none" stroke="#477f9a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M285 308L645 182" fill="none" stroke="#477f9a" stroke-width="3.5" stroke-linecap="round"/>
   <circle cx="465" cy="245" r="7" fill="#303a40"/>
   <text x="450" y="226" font-family="Cambria, Georgia, serif" font-size="24" fill="#303a40">0</text>
   <text x="700" y="125" font-family="Cambria, Georgia, serif" font-size="30" font-style="italic" fill="#303a40">V</text>

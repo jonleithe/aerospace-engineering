@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">A crystal unit cell described by basis vectors</title>
+  <desc id="desc">A parallelepiped unit cell is spanned by three lattice basis vectors u, v, and w. A point inside it is located by fractional coordinates relative to those vectors.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
+    <marker id="blue-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#3f7897"/></marker>
+    <marker id="rust-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#c17b52"/></marker>
+    <marker id="dark-arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#39444b"/></marker>
+  </defs>
+  <rect width="900" height="500" fill="#fff"/>
+  <rect width="900" height="500" fill="url(#grid)"/>
+  <path d="M180 355L470 380L610 245L320 220Z" fill="#dcebf0" fill-opacity=".55" stroke="#6e8791" stroke-width="2"/>
+  <path d="M180 355L180 145L320 10L320 220Z" fill="#e9eff0" fill-opacity=".7" stroke="#6e8791" stroke-width="2"/>
+  <path d="M180 145L470 170L610 35L320 10Z" fill="#dcebf0" fill-opacity=".32" stroke="#6e8791" stroke-width="2"/>
+  <path d="M470 380L470 170M610 245L610 35" fill="none" stroke="#6e8791" stroke-width="2"/>
+  <line x1="180" y1="355" x2="470" y2="380" stroke="#3f7897" stroke-width="3.5" marker-end="url(#blue-arrow)"/>
+  <line x1="180" y1="355" x2="320" y2="220" stroke="#c17b52" stroke-width="3.5" marker-end="url(#rust-arrow)"/>
+  <line x1="180" y1="355" x2="180" y2="145" stroke="#39444b" stroke-width="3.5" marker-end="url(#dark-arrow)"/>
+  <line x1="180" y1="355" x2="395" y2="195" stroke="#39444b" stroke-width="2.5" stroke-dasharray="7 7"/>
+  <circle cx="395" cy="195" r="8" fill="#c17b52" stroke="#fff" stroke-width="2"/>
+  <text x="485" y="390" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#356d8a">u</text>
+  <text x="320" y="235" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#ad6945">v</text>
+  <text x="158" y="145" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#303a40">w</text>
+  <text x="412" y="190" font-family="Cambria, Georgia, serif" font-size="22" font-style="italic" fill="#ad6945">atom</text>
+  <rect x="650" y="145" width="210" height="130" rx="8" fill="#fff" stroke="#cbd3d6" stroke-width="1.5"/>
+  <text x="755" y="180" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="18" fill="#303a40">r = ½u + ½v + ½w</text>
+  <text x="755" y="219" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="18" fill="#59666c">coordinates (½, ½, ½)</text>
+  <text x="450" y="458" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="18" fill="#64747a">The lattice basis vectors define the cell; coordinates locate points within it.</text>
+</svg>

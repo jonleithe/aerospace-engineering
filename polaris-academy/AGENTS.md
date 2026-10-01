@@ -236,6 +236,9 @@ Figures should
 - have captions
 - be referenced in text
 - avoid unnecessary decoration
+- use thin vector shafts and compact arrowheads sized in proportion to them
+- set SVG arrowheads in fixed user-space units so line thickness does not
+  scale the heads; coordinate axes should remain lighter than plotted vectors
 
 GeoGebra is frequently used for illustrations.
 

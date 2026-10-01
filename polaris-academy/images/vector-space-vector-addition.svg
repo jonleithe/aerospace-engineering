@@ -3,18 +3,18 @@
   <desc id="desc">Two vectors u and v start at the same origin. Dashed translated copies complete a parallelogram, and the diagonal u plus v is the resultant.</desc>
   <defs>
     <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
-    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3f7897"/></marker>
-    <marker id="rustArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#c17b52"/></marker>
-    <marker id="darkArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#39444b"/></marker>
+    <marker id="blueArrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#3f7897"/></marker>
+    <marker id="rustArrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#c17b52"/></marker>
+    <marker id="darkArrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#39444b"/></marker>
   </defs>
   <rect width="900" height="500" fill="#fff"/>
   <rect width="900" height="500" fill="url(#grid)"/>
   <path d="M190 350L370 165L650 125L470 310Z" fill="#dcebf0" fill-opacity=".22" stroke="#788991" stroke-width="2" stroke-dasharray="7 8"/>
-  <line x1="190" y1="350" x2="370" y2="165" stroke="#3f7897" stroke-width="5" stroke-linecap="round" marker-end="url(#blueArrow)"/>
-  <line x1="190" y1="350" x2="470" y2="310" stroke="#c17b52" stroke-width="5" stroke-linecap="round" marker-end="url(#rustArrow)"/>
+  <line x1="190" y1="350" x2="370" y2="165" stroke="#3f7897" stroke-width="3.5" stroke-linecap="round" marker-end="url(#blueArrow)"/>
+  <line x1="190" y1="350" x2="470" y2="310" stroke="#c17b52" stroke-width="3.5" stroke-linecap="round" marker-end="url(#rustArrow)"/>
   <line x1="370" y1="165" x2="650" y2="125" stroke="#c17b52" stroke-width="3" stroke-dasharray="8 7"/>
   <line x1="470" y1="310" x2="650" y2="125" stroke="#3f7897" stroke-width="3" stroke-dasharray="8 7"/>
-  <line x1="190" y1="350" x2="650" y2="125" stroke="#39444b" stroke-width="5" stroke-linecap="round" marker-end="url(#darkArrow)"/>
+  <line x1="190" y1="350" x2="650" y2="125" stroke="#39444b" stroke-width="3.5" stroke-linecap="round" marker-end="url(#darkArrow)"/>
   <circle cx="190" cy="350" r="5" fill="#303a40"/>
   <text x="158" y="382" font-family="Cambria, Georgia, serif" font-size="26" fill="#303a40">O</text>
   <text x="345" y="145" font-family="Cambria, Georgia, serif" font-size="29" font-style="italic" fill="#356d8a">u</text>

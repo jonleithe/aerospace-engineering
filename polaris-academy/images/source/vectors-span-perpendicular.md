@@ -6,7 +6,8 @@ Rendered asset: `../vectors-span-perpendicular-white-grid.png`.
 Drawn directly as SVG with the maintainer's approval after image generation
 reached its usage limit. White paper, a faint coordinate grid, lightly bowed
 pencil-like strokes, and equal axis scales preserve the established style as
-closely as possible. Endpoints are exact: v = (2, 1), w = (-1, 2).
+closely as possible. Arrowheads use fixed user-space dimensions. Endpoints are
+exact: v = (2, 1), w = (-1, 2).
 The rotation arc runs counterclockwise from v to w. Both vectors have length
 sqrt(5), and their dot product is zero.
 

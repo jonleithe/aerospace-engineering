@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="title desc">
+  <title id="title">The coordinate mapping from a vector space to R n</title>
+  <desc id="desc">A vector x in an abstract vector space V maps to its unique coordinate vector in R n, with entries c one through c n.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#3f7897"/></marker>
+  </defs>
+  <rect width="900" height="450" fill="#fff"/>
+  <rect width="900" height="450" fill="url(#grid)"/>
+  <path d="M90 135L320 95L390 310L160 350Z" fill="#eef2f2" fill-opacity=".85" stroke="#65747a" stroke-width="2.5"/>
+  <text x="115" y="125" font-family="Cambria, Georgia, serif" font-size="28" font-style="italic" fill="#303a40">V</text>
+  <circle cx="255" cy="220" r="7" fill="#39444b"/>
+  <text x="268" y="216" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#303a40">x</text>
+  <line x1="425" y1="220" x2="590" y2="220" stroke="#3f7897" stroke-width="3.5" marker-end="url(#arrow)"/>
+  <text x="507" y="195" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="25" fill="#356d8a">x ↦ [x]ᵦ</text>
+  <text x="730" y="95" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="27" font-style="italic" fill="#303a40">ℝⁿ</text>
+  <line x1="665" y1="330" x2="825" y2="330" stroke="#59666c" stroke-width="2"/>
+  <line x1="700" y1="355" x2="700" y2="125" stroke="#59666c" stroke-width="2"/>
+  <circle cx="766" cy="198" r="7" fill="#c17b52"/>
+  <line x1="700" y1="330" x2="766" y2="198" stroke="#c17b52" stroke-width="3" stroke-dasharray="7 6"/>
+  <text x="775" y="195" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#ad6945">[x]ᵦ</text>
+  <rect x="615" y="365" width="225" height="55" rx="5" fill="#fff" stroke="#cbd3d6" stroke-width="1.5"/>
+  <text x="727" y="389" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="18" fill="#303a40">[x]ᵦ = (c₁, …, cₙ)ᵀ</text>
+  <text x="260" y="395" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="18" fill="#64747a">Each vector receives one unique coordinate vector.</text>
+</svg>

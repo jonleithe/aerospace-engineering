@@ -3,9 +3,9 @@
   <desc id="desc">Two independent vectors v1 and v2 lie in a plane through the origin in R3; their span is that plane.</desc>
   <defs>
     <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#eceff0" stroke-width="1"/></pattern>
-    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3f7897"/></marker>
-    <marker id="rustArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#c17b52"/></marker>
-    <marker id="darkArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#39444b"/></marker>
+    <marker id="blueArrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#3f7897"/></marker>
+    <marker id="rustArrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#c17b52"/></marker>
+    <marker id="darkArrow" viewBox="0 0 11 11" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#39444b"/></marker>
   </defs>
   <rect width="900" height="540" fill="#fff"/>
   <rect width="900" height="540" fill="url(#grid)"/>
@@ -13,8 +13,8 @@
   <line x1="450" y1="278" x2="240" y2="425" stroke="#39444b" stroke-width="2.5" marker-end="url(#darkArrow)"/>
   <line x1="450" y1="278" x2="790" y2="350" stroke="#39444b" stroke-width="2.5" marker-end="url(#darkArrow)"/>
   <line x1="450" y1="278" x2="450" y2="55" stroke="#39444b" stroke-width="2.5" marker-end="url(#darkArrow)"/>
-  <line x1="450" y1="278" x2="315" y2="242" stroke="#3f7897" stroke-width="5" stroke-linecap="round" marker-end="url(#blueArrow)"/>
-  <line x1="450" y1="278" x2="590" y2="250" stroke="#c17b52" stroke-width="5" stroke-linecap="round" marker-end="url(#rustArrow)"/>
+  <line x1="450" y1="278" x2="315" y2="242" stroke="#3f7897" stroke-width="3.5" stroke-linecap="round" marker-end="url(#blueArrow)"/>
+  <line x1="450" y1="278" x2="590" y2="250" stroke="#c17b52" stroke-width="3.5" stroke-linecap="round" marker-end="url(#rustArrow)"/>
   <circle cx="450" cy="278" r="5.5" fill="#303a40"/>
   <text x="463" y="300" font-family="Cambria, Georgia, serif" font-size="22" fill="#303a40">0</text>
   <text x="230" y="447" font-family="Cambria, Georgia, serif" font-size="24" font-style="italic" fill="#303a40">x₁</text>
