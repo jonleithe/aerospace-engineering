@@ -1,1 +1,2 @@
-# Aerospace Engineering at UiT Narvik
+# A loosely curated collection of engineering stuff
+
