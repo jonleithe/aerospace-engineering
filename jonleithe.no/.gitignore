@@ -1,4 +1,5 @@
 sftp.creds
+ssh-lftp
 
 # Generated Hugo output and caches (includes the assembled Academy site)
 /public/

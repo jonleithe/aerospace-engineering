@@ -19,6 +19,4 @@ I work as a Systems Engineer at the
 {{< /rawhtml >}}
 , focusing on scientific infrastructure, precision measurement systems, and Linux-based technical environments.
 
-In August 2026 I begin an MSc in Aerospace Engineering at UiT – The Arctic University of Norway.
-
 Project Polaris is my long-term engineering notebook, documenting my studies, software projects, and technical explorations.
